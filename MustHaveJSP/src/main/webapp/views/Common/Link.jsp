@@ -5,15 +5,15 @@
         <td align="center">
         <!-- 로그인 여부에 따른 메뉴 변화 -->
         <% if (session.getAttribute("UserId") == null) { %>
-            <a href="../Login/LoginForm.jsp">로그인</a>
+            <a href="/MustHaveJSP/views/Login/LoginForm.jsp">로그인</a>
         <% } else { %>
             <a href="../Login/Logout.jsp">로그아웃</a>
         <% } %>
             <!-- 8장과 9장의 회원제 게시판 프로젝트에서 사용할 링크 -->
             &nbsp;&nbsp;&nbsp; 
-            <a href="List.jsp">게시판(페이징X)</a>
+            <a href="/MustHaveJSP/views/Board/List.jsp">게시판(페이징X)</a>
             &nbsp;&nbsp;&nbsp; 
-            <a href="List.jsp">게시판(페이징O)</a>
+            <a href="/MustHaveJSP/views/PagingBoard/List.jsp">게시판(페이징O)</a>
         </td>
     </tr>
 </table>
