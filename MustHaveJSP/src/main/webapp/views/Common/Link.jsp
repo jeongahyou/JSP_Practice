@@ -16,6 +16,8 @@
             <a href="/MustHaveJSP/views/PagingBoard/List.jsp">게시판(페이징O)</a>
             &nbsp;&nbsp;&nbsp; 
             <a href="/MustHaveJSP/views/FileUpload/FileUploadMain.jsp">파일업로드</a>
+            &nbsp;&nbsp;&nbsp; 
+            <a href="/MustHaveJSP/views/Servlet/MemberAuth.jsp">MVC패턴 적용</a>
         </td>
     </tr>
 </table>

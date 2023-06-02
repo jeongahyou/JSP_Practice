@@ -108,7 +108,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>MemberAuth</servlet-name>
-    <url-pattern>/13Servlet/MemberAuth.mvc</url-pattern>
+    <url-pattern>/Servlet/MemberAuth.mvc</url-pattern>
   </servlet-mapping>
 
   <!-- 서블릿 매핑 4(예제 14-4) -->
